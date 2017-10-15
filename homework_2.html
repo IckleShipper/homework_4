@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+ <meta charset="utf-8">
+<title>Table n Form</title>
+
+</head>
+
+<body>
+
+
+	<table border="1">
+		 <caption>Моя табличка</caption>
+	<thead>
+        <tr>
+            <td colspan="10">Таблица некоторых слов на разных языках</td>  
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td colspan="10">Спасибо за внимание. Можете заполнить анкету</td>  
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+        	 <td>Язык</td>
+        	 <td colspan="9">Слова</td>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+        	 <td>Русский</td>
+        	 <td rowspan="2">я</td>
+        	 <td rowspan="2">кот</td>
+        	 <td>мать</td>
+        	 <td rowspan="2">палка</td>
+        	 <td>этаж</td>
+        	 <td colspan="2">пол</td>
+        	 <td>гвоздь</td>
+        	 <td>ноготь</td>
+        </tr>
+        <tr>
+        	 <td>Белорусский</td>
+        	 <td>мацi</td>
+        	 <td>паверх</td>
+        	 <td colspan="2">падлогу</td>
+        	 <td>цвiк</td>
+        	 <td>пазногаць</td>
+        </tr>
+        <tr>
+        	 <td>Английский</td>
+        	 <td>I</td>
+        	 <td>cat</td>
+        	 <td>mother</td>
+        	 <td>stick</td>
+        	 <td colspan="2">floor</td>
+        	 <td>gender</td>
+        	 <td colspan="2">nail</td>
+        </tr>
+        <tr>
+        	<td>Немецкий</td>
+        	<td>ich</td>
+        	<td>Kater</td>
+        	<td>Mutter</td>
+        	<td colspan="2">Stock</td>
+        	<td>Boden</td>
+        	<td>Geschlecht</td>
+        	<td colspan="2">Nagel</td>
+        </tr>
+        <tr>
+        	<td>Французский</td>
+        	<td>je</td>
+        	<td>chat</td>
+        	<td>mère</td>
+        	<td>canne</td>
+        	<td colspan="2">étage</td>
+        	<td>le genre</td>
+        	<td colspan="2">clou</td>
+        </tr>
+        <tr>
+        	<td>Испанский</td>
+        	<td>yo</td>
+        	<td>gato</td>
+        	<td rowspan="2">madre</td>
+        	<td>caña</td>
+        	<td>suelo</td>
+        	<td>piso</td>
+        	<td>género</td>
+        	<td colspan="2">clavo</td>
+        </tr>
+        <tr>
+        	<td>Итальянский</td>
+        	<td>io</td>
+        	<td>gatto</td>
+        	<td>bastone</td>
+        	<td colspan="2">piano</td>
+        	<td>genere</td>
+        	<td colspan="2">chiodo</td>
+        </tr>
+    </tbody>
+	</table>
+
+	<form action="/search.php">
+	<label>Телефон:<input type="tel" name="Поле для номера телефона" placeholder="Поле для номера телефона"></label><br>
+	<label>Email:<input type="email" name="Поле для email" placeholder="Поле для email"></label><br>
+	<label>Логин:<input type="text" name="Текстовое поле" placeholder="Текстовое поле"></label><br>
+    <label>Пароль:<input type="password" name="Поле для ввода пароля" placeholder="Поле для ввода пароля"></label><br>
+    <label>Подтвержаю пароль:<input type="checkbox" name="Флаг"  value="yes"></label><br>
+    <label>Пол:</label><br>
+    <label>Мужской<input type="radio" name="Переключатель (пол)" value="mr"></label><br>
+    <label>Женский<input type="radio" name="Переключатель (пол)" value="mrs"></label><br>
+    <label>Фотография<input type="file" name="Загрузка файла"></label><br>
+    <label>Ссылка на страницу в соцсети:<input type="url" name="Поле для URL-адреса" placeholder="Поле для URL-адреса"></lable><br>
+    <label>Можете подвигать ползунок:<input type="range" name="Ползунок" min="1" max="20" step="1"></label><br>
+    <label>И загуглить что-нибудь:<input type="search" name="Поле для поисковых запросов" placeholder="Поле для поисковых запросов"></label><br>
+    <label>А теперь оцените форму по 10-балльной шкале:<input type="number" name="Поле для чисел" min="9" max="10" step="0.5"></label><br>
+    Нажмите на кнопку, если норм форм:
+    <input type="button" name="Кнопка"><br>
+    <input type="reset" name="Кнопка сброса значений"><br>
+    <input type="submit" name="Кнопка отправки данных"><br>
+</form>
+</body>
+</html>
