@@ -1,0 +1,67 @@
+body{
+	font-family: "Roboto (cyrillic + latin)"; /*????*/
+    color: #222222;
+}
+h1{
+  font-size: 32px; /*rem*/
+  font-variant: small-caps;
+  font-weight: 400;
+  text-align: center;
+  border-bottom-width: 2px;
+  border-bottom-color: solid #aaaaaa;
+}
+h2{
+  font-size: 24px; /*rem*/
+  font-weight: 500;
+  border-bottom-width: 1px;
+  border-bottom-color: solid #aaaaaa;
+}
+h3{
+  font-size: 21px; /*rem*/
+  font-weight: 600;
+}
+h4{
+  font-size: 18px; /*rem*/
+  font-weight: 600;
+}
+ol, img{
+  margin: 15px 40px;
+  padding: 15px;
+  width: 250px;
+  background-color: #eeeeee;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: solid #dddddd;
+}
+.mainimage{
+font-weight: 500
+}
+.img{
+font-size: 13px; /*rem*/
+font-style: italic;
+}
+img{
+width: 100%; /*Хеееелп*/
+border-radius: 3px;
+}
+p{
+text-align: justify;
+text-indent: 40px;
+}
+a{
+color: #0088ff;
+text-decoration: none;
+}
+blockquote{
+padding: 15px;
+font-style: italic;
+background-color: #eeeeee;
+border-radius: 3px;
+border-width: 1px;
+border-color: solid #dddddd;
+}
+q{
+quotes: '«' '»';
+font-style: italic;
+color: #888888;
+}
