@@ -1,0 +1,123 @@
+/* Задание 1 */
+@import url('https://fonts.googleapis.com/css?family=Nosifer&subset=latin-ext');
+.task1__scary-text {
+color: red;
+font-family: 'Nosifer';
+font-size: 2rem;
+}
+
+/* Задание 2 */
+.task2__lyrics {
+line-height: 1;
+letter-spacing: 0;
+}
+
+/* Задание 3 */
+.task3__italic {
+font-style: italic;
+}
+.task3__oblique {
+font-style: oblique;
+}
+.task3__bold {
+font-weight: bold;
+}
+.task3__underlined {
+text-decoration: underline;
+}
+.task3__overlined {
+text-decoration: overline;
+}
+.task3__linethrough {
+text-decoration: line-through;
+}
+.task3__bonus {
+text-decoration: underline line-through;
+}
+
+/* Задание 4 */
+.task4__block1 {
+background-color:red;
+border-radius: 50%;
+}
+.task4__block2 {
+background-color: yellow;
+border-radius: 50%;
+}
+.task4__block3 {
+background-color: green;
+border-radius: 50%;
+}
+
+/* Задание 5 */
+.task5__name {
+color: pink;
+}
+.task5__hex {
+color: #ffc0cb;
+}
+.task5__rgb {
+color: rgb(255, 192, 203);
+}
+.task5__rgba {
+color: rgba(255, 192, 203, 0.5);
+}
+.task5__hsl {
+color: hsl(350, 100%, 88%);
+}
+.task5__hsla {
+color: hsla(350, 100%, 88%, 0.5);
+}
+
+/* Задание 6 */
+.task6__cat-parent {
+text-align: right;
+}
+
+/* Задание 7 */
+.task7__bear {
+  position: absolute;
+  z-index:-999;
+}
+
+/* Задание 8 */
+.task8__cage {
+position: relative;
+}
+
+/* Задание 9 */
+.task9__spider-man {
+  position: static;
+}
+
+/* Задание 10 */
+.task10__pelmeshek {
+position: fixed;
+top:0;
+right:0;
+}
+
+/* Бонусное задание 1 */
+.task-bonus1 {
+text-align: right;
+transform: rotate(180deg);
+}
+
+/* Бонусное задание 2 */
+.task-bonus2__sidebar {
+float:left;
+width:10%;
+}
+.task-bonus2__content {
+margin-left: 11.5%;
+}
+.task-bonus2__footer {
+clear:both;
+display:table;
+}
+
+/* Бонусное задание 3 */
+.task-bonus3__flex {
+	display:flex;
+	justify-content: space-around;
+}
