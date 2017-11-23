@@ -1,0 +1,25 @@
+@font-face {
+	font-family: Formular;
+	src: url(Formular/Formular-Black.otf);
+	}
+.header_in_main_page{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 60px;
+	margin-top: 24px;
+	margin-bottom: 36px;
+}
+.logo_in_header{
+	height: 60px;
+	margin-left:30px;
+}
+.links_in_header{
+	margin-right: 38px;
+	color: #4b721d;
+	font-size: 35px;
+	font-family: Formular;
+}
+.links_in_header:hover{
+	color: #80bb3d;
+}
