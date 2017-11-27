@@ -1,7 +1,10 @@
 @font-face {
 	font-family: Formular;
-	src: url(Formular/Formular-Black.otf);
+	src: url(Formular/Formular-Medium.otf);
 	}
+body{
+font-family: 'Formular', 'Helvetica', 'Arial', 'Sans-Serif';
+}
 .header_in_main_page{
 	display:flex;
 	flex-direction: row;
@@ -22,4 +25,80 @@
 }
 .links_in_header:hover{
 	color: #80bb3d;
+}
+.title{
+	color: #4b721d;
+	font-size: 32px;
+	font-weight: 500;
+	margin-top: 57px;
+}
+.card-content{
+	color: #515151;
+	font-size: 21px;
+}
+.card{
+	border-radius: 2px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+.image-in-block{
+	border-radius: 2px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
+}
+.card-footer{
+	font-weight: bold;
+	font-size: 28px;
+}
+.previous-price{
+	color: #9d9d9d;
+	text-decoration: line-through;
+}
+.new-price{
+	color: #4b721d;
+}
+.ideas-text{
+	z-index: 9999999999;
+	position: absolute; 
+    margin: auto;
+	font-size: 42px;
+	font-weight: bold;
+	color: #ffffff;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.bottom-logo{
+	height: 57px;
+}
+.ideas{
+	margin-bottom: 85.6px;
+}
+.information{
+	background-color: #f4f4f4;
+	font-size: 21px;
+	color: #666666;
+	font-weight: 500;
+}
+.information-content{
+	margin-top: 36px;
+	margin-bottom: 36px;
+}
+.column-left{
+	margin-left: 128px;
+}
+.column-right{
+	margin-right: 128px;
+}
+.bold{
+	font-weight: 700;
+}
+.bottom-text{
+	font-size: 16px;
+	text-align: center;
+	color: #c3c3c3;
+	margin-top:23px;
+	padding-left: 125px;
+	padding-right:130px;
+	padding-top: 15px;
+	padding-bottom: 21px;
+}
+.card-footer{
+	border-style: none;
 }
